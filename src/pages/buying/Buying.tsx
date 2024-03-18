@@ -30,7 +30,7 @@ function Buying() {
     validationSchema: Yup.object().shape({
       email: Yup.string()
         .min(10,'The email must be at least 10 characters')
-        .max(30)
+        .max(30,'jhvjghvvhjbbhjb')
         .email("The email entered is not valid")
         .required("Email is required"),
       address: Yup.string()
