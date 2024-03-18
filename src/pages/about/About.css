@@ -1,0 +1,12 @@
+.img-Container:hover p {
+opacity: 1;
+}
+
+.img-Container:hover img {
+  filter: blur(10px);
+}
+
+.img-Container:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}

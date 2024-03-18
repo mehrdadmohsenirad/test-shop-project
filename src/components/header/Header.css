@@ -1,0 +1,11 @@
+.bg-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/src/assets/images/bgHeader.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #555;
+  z-index: -14;
+}
