@@ -17,11 +17,6 @@ function Navbar() {
 
   const closeCartModal = () => {
     setIsShowCart(false);
-    console.log('navbar');
-    console.log('navbar');
-    console.log('navbar');
-    console.log('navbar');
-    
   };
 
   return (
